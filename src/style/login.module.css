@@ -1,0 +1,93 @@
+/* * {
+    overflow: hidden;
+} */
+.goOut {
+    position: absolute;
+    padding: 10px;
+    border-radius: 10px;
+    background: #0c1414;
+    top: 10px;
+    left: 10px;
+}
+
+.mainWrapper {
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+    z-index: 30;
+    top: 0;
+    left: 0;
+    background: black url('../img/icoBG.jpg') 50% 49%/auto 100% no-repeat;
+}
+
+.bg_color {
+    background: #000000b3;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header {
+    text-align: center;
+    color: rgb(176, 175, 175);
+}
+
+.contWrapper {
+    opacity: 1;
+    color: aliceblue;
+    padding: 20px;
+    background: #00000078;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.inWrapper {
+    width: 70vw;
+    max-width: 500px;
+    margin: 25px 0;
+}
+
+.inWrapper:nth-child(1) {
+    margin-top: 35px;
+}
+
+.inWrapper:nth-last-of-type(2) {
+    margin-bottom: 40px;
+}
+
+
+input:focus,
+input:hover,
+input:active {
+    outline: 0;
+    outline-offset: 0;
+    border: 0;
+    border-bottom: 2px solid black;
+}
+
+input {
+    border: 0;
+}
+
+.inWrapper input {
+    background: #0000;
+    border-bottom: 2px solid black;
+    width: 100%;
+    color: white;
+}
+
+.inputText {
+    margin-top: 5px;
+    font-size: 79%;
+    color: #f5aaaa;
+    display: none;
+}
+
+.buttons {
+    display: flex;
+    justify-content: end;
+    gap: 20px;
+}

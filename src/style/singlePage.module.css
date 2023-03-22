@@ -1,0 +1,27 @@
+.imgWrapp {
+    position: relative;
+    width: 100%;
+    padding: 0 0 64% 0;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.imgWrapp img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.name {
+    margin: 20px 0px 30px 30px;
+    color: #45c480;
+    font-size: 130%;
+}
+
+.text {
+    line-height: 22px;
+    margin-bottom: 30px;
+}

@@ -1,0 +1,18 @@
+.butt {
+    flex: 0 0 60px;
+    width: 60px;
+    height: 40px;
+    background: url('../img/goBack.png') 50%/100% auto no-repeat;
+    cursor: pointer;
+}
+
+.wrapp {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    cursor: pointer;
+}
+
+.text {
+    user-select: none;
+}

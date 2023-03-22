@@ -1,0 +1,112 @@
+.mainWrapper {
+    min-height: 70vh;
+}
+
+.warningText {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 300px;
+    margin: 20px auto;
+    transition-duration: 0.3s;
+}
+
+.contentWrapper {
+    margin-top: 40px;
+}
+
+.header {
+    font-size: 20px;
+    text-align: center;
+}
+
+.name {
+    margin: 0;
+    flex: 1 1 auto;
+}
+
+.checkBox {
+    flex: 0 0 20px;
+}
+
+.button {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+.price {}
+
+.check {
+    position: relative;
+    background: #c5c4c4;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    max-width: 300px;
+    overflow: hidden;
+    margin: 50px auto;
+    transition-duration: 0.6s;
+
+}
+
+.allOkey {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #202124 url('../img/karzActive.png') 50%/60% auto no-repeat;
+    transition-duration: 0.4s;
+}
+
+.check form {
+    text-align: center;
+
+}
+
+.inWrapper {
+    width: 70vw;
+    margin: 25px auto;
+}
+
+.inWrapper:nth-child(1) {
+    margin-top: 35px;
+}
+
+.inWrapper:nth-last-of-type(2) {
+    margin-bottom: 40px;
+}
+
+
+input:focus,
+input:hover,
+input:active {
+    outline: 0;
+    outline-offset: 0;
+    border: 0;
+    border-bottom: 2px solid black;
+}
+
+.inWrapper input {
+    border: 0;
+    background: #0000;
+    border-bottom: 2px solid black;
+    width: 100%;
+    color: rgb(0, 0, 0);
+}
+
+.inputText {
+    text-align: left;
+    margin-top: 5px;
+    font-size: 79%;
+    color: #ed4949;
+    display: none;
+}
